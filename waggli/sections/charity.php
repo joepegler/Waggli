@@ -1,14 +1,39 @@
 <section class="charity" id="charity">
 
-    <div class="section-header">
+    <div class="container">
 
-        <h2>Charity</h2>
+        <div class="section-header">
 
-    </div>
+            <h2>Charity</h2>
 
-    <div class="section-legend">
-        
-        All about the charity section
+        </div>
+
+        <div class="section-legend">
+            
+            At Waggli we give back. 
+
+        </div>
+
+        <br>
+
+        <div class="row">   
+
+            <div class="col-lg-4 col-sm-4 charity-box" data-scrollreveal="enter left after 0.15s over 1s">
+                <?php echo '<img src="'.get_template_directory_uri().'/images/sad_one.png">'; ?>
+                <div class="charity-info"> At Waggli no dog gets left behind. Some dogs do not a happy like your lucky pup. </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 charity-box" data-scrollreveal="enter left after 0.15s over 1s">
+                <?php echo '<img src="'.get_template_directory_uri().'/images/sad_two.png">'; ?>
+                <div class="charity-info"> 3.9 million dogs enter shelters every year in the US, and we want to help. You can help too!</div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 charity-box" data-scrollreveal="enter left after 0.15s over 1s">
+                <?php echo '<img src="'.get_template_directory_uri().'/images/sad_three.png">'; ?> 
+                <div class="charity-info"> Every booking you make through Waggli helps a local dog shelter, hospital or pound in San Diego. </div>
+            </div>
+
+        </div>
 
     </div>
 
