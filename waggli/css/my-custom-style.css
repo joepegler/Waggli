@@ -287,6 +287,42 @@ h1, h2, h3, h4, h5, h6{
     }
 /*
  *
+ *  CHARITY
+ *
+ */
+ #charity{
+    background-image: url('../images/gif3.gif');
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
+    -moz-box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
+    box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+    #charity * {
+        color:#FFF;
+        text-shadow: 0px 5px 10px #000;
+    }
+        #charity .section-header{
+            padding-bottom: 0;
+            margin-top: 25px;
+        }
+        #charity .section-legend{
+            font-size:30px;
+        }
+        #charity .row{
+            padding-top: 50px;
+            padding-bottom: 35px;
+            font-size:30px;
+        }
+            #charity .row .charity-info{
+                color:#000;
+                text-shadow: 0px 5px 10px #FFF;
+                font-size:22px;
+            }
+/*
+ *
  *  FOOTER
  *
  */
