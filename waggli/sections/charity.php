@@ -1,5 +1,15 @@
-<?php?>
+<section class="charity" id="charity">
 
-<section>
-	<h1>CHARITY SECTION</h1>
+    <div class="section-header">
+
+        <h2>Charity</h2>
+
+    </div>
+
+    <div class="section-legend">
+        
+        All about the charity section
+
+    </div>
+
 </section>

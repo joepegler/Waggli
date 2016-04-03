@@ -238,6 +238,10 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	endif;
 
+	/* CHARITY SECTION */
+
+		get_template_part( 'sections/charity' );
+
 		/* CONTACT US */
 		$zerif_contactus_show = get_theme_mod('zerif_contactus_show');
 
