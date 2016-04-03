@@ -238,8 +238,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	endif;
 
-	/* CHARITY SECTION */
-
+		/* CHARITY SECTION */
 		get_template_part( 'sections/charity' );
 
 		/* CONTACT US */
