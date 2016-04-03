@@ -15,6 +15,7 @@
               echo '<br><div class="dark-text section-legend">'; 
                 echo wp_kses_post( $zerif_aboutus_subtitle ); 
               echo '</div>'; 
+              // echo '<img src="'.get_template_directory_uri().'/images/team1.png" style="border-radius:50%;width:20px;">';
             elseif ( isset( $wp_customize ) ): 
               echo '<br><div class="dark-text section-legend zerif_hidden_if_not_customizer">'.$zerif_aboutus_subtitle.'</h6>'; 
             endif; 
