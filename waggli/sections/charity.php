@@ -11,7 +11,7 @@
         <div class="row">   
             <div class="col-lg-4 col-sm-4 charity-box" data-scrollreveal="enter left after 0.15s over 1s">
                 <?php echo '<img src="'.get_template_directory_uri().'/images/sad_one_nc.png">'; ?>
-                <div class="charity-info"> At Waggli no dog gets left behind. Some dogs do not a happy home like your lucky pup. </div>
+                <div class="charity-info"> At Waggli no dog gets left behind. Some dogs do not have a happy home like your lucky pup. </div>
             </div>
             <div class="col-lg-4 col-sm-4 charity-box" data-scrollreveal="enter left after 0.15s over 1s">
                 <?php echo '<img src="'.get_template_directory_uri().'/images/sad_two_nc.png">'; ?>
