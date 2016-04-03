@@ -3,8 +3,8 @@
 
 # But not these files...
 !.gitignore
-!waggli
-!waggli/*
+!waggli/
+!waggli/**
 
 # ...even if they are in subdirectories
 !*/
