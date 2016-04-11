@@ -94,7 +94,7 @@
 					
 					if( !empty($zerif_address_icon) ) { 
 						echo '<div class="icon-top red-text">';
-							 echo '<img src="'.esc_url($zerif_address_icon).'" alt="" />';
+							 echo '<img src="'.esc_url($zerif_address_icon).'" alt="San Diego, CA 92121" />';
 						echo '</div>';
 					}
 					
@@ -115,7 +115,7 @@
 				
 					if( !empty($zerif_email_icon) ) {
 						echo '<div class="icon-top green-text">';
-							echo '<img src="'.esc_url($zerif_email_icon).'" alt="" />';
+							echo '<img src="'.esc_url($zerif_email_icon).'" alt="Email" />';
 						echo '</div>';
 					}
 					if( !empty($zerif_email) ) {
@@ -134,7 +134,7 @@
 				echo '<div class="'.$footer_class.' company-details">';
 					if( !empty($zerif_phone_icon) ) {
 						echo '<div class="icon-top blue-text">';
-							echo '<img src="'.esc_url($zerif_phone_icon).'" alt="" />';
+							echo '<img src="'.esc_url($zerif_phone_icon).'" alt="Telephone" />';
 						echo '</div>';
 					}
 					if( !empty($zerif_phone) ) {
@@ -161,11 +161,11 @@
 						
 						/* facebook */
 						if( !empty($zerif_socials_facebook) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_facebook).'"><img src="'.get_template_directory_uri().'/images/facebook.png"></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_facebook).'"><img src="'.get_template_directory_uri().'/images/facebook.png" alt="https://www.facebook.com/waggli"></a></li>';
 						endif;
 						/* twitter */
 						if( !empty($zerif_socials_twitter) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_twitter).'"><img src="'.get_template_directory_uri().'/images/twitter.png"></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_twitter).'"><img src="'.get_template_directory_uri().'/images/twitter.png" alt="https://twitter.com/wagglipets"></a></li>';
 						endif;
 						/* linkedin */
 						if( !empty($zerif_socials_linkedin) ):
@@ -177,11 +177,11 @@
 						endif;
 						/* dribbble */
 						if( !empty($zerif_socials_dribbble) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_dribbble).'"><img src="'.get_template_directory_uri().'/images/googleplus.png"></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_dribbble).'"><img src="'.get_template_directory_uri().'/images/googleplus.png" alt="https://plus.google.com/+WaggliPets/posts"></a></li>';
 						endif;
 						/* instagram */
 						if( !empty($zerif_socials_instagram) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_instagram).'"><img src="'.get_template_directory_uri().'/images/instagram.png"></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_instagram).'"><img src="'.get_template_directory_uri().'/images/instagram.png" alt="https://www.instagram.com/wagglipets/"></a></li>';
 						endif;
 						echo '</ul>';
 					endif;	
