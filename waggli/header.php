@@ -8,6 +8,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+<script src="//load.sumome.com/" data-sumo-site-id="1198d2c34e139aa19f1cb2ed149f8a6fe014785b601dbf848c7c752316195f2f" async="async"></script>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="v5-vt_uxSk2NNANJXt9W664eG8saOUesxQ71UXg9438" />
