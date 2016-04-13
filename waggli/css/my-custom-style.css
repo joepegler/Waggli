@@ -274,13 +274,18 @@ h1, h2, h3, h4, h5, h6{
         color: #262626;
     }
     #testimonials .section-header{
+        text-shadow: 0px 6x 12px #FFF;
+        font-family: Bebas_neue;
         padding-bottom: 5px;
+    }
+    #testimonials .section-legend{
+        display:inline-block; 
+        background-color:rgba(255,255,255,0.7);
     }
     #testimonials .client-name{
         font-family: Bebas_neue;
         font-size: 150%;
     }
-
     #testimonials .container{
         /*background-color: rgba(235, 235, 235, .7);*/
         text-shadow: 0px 5px 10px #FFF;
