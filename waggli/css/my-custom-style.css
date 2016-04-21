@@ -1,73 +1,55 @@
 /*
  *
- *  GLOBAL FONTS
- *
- */
-@font-face {
-    font-family: 'Circular-bold';
-    src: url('../fonts/glacialindifference-bold-webfont.eot');
-    src: url('../fonts/glacialindifference-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
-         url('../fonts/glacialindifference-bold-webfont.woff') format('woff'),
-         url('../fonts/glacialindifference-bold-webfont.ttf') format('truetype'),
-         url('../fonts/glacialindifference-bold-webfont.svg#glacial_indifferencebold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Circular';
-    src: url('../fonts/glacialindifference-regular-webfont.eot');
-    src: url('../fonts/glacialindifference-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
-         url('../fonts/glacialindifference-regular-webfont.woff') format('woff'),
-         url('../fonts/glacialindifference-regular-webfont.ttf') format('truetype'),
-         url('../fonts/glacialindifference-regular-webfont.svg#glacial_indifferenceregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Bebas_neue';
-    src: url('../fonts/bebasneue_regular-webfont.eot');
-    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
-         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-/*
- *
  *  GLOBAL CSS
  *
  */
 body *{
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#262626;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: Bebas_neue;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1.entry-title{
+    font-size: 180%;
 }
 /*
  *
  *  NAVBAR
  *
  */
-.custom-background{
-    background-size: cover;
+#main-nav{
+    min-height:60px;
 }
-.menu-item-11{
-    background-color: #c46543;
-    text-align: center;
-    line-height: 100%;
-    padding: 10px 20px 10px 20px;
-    border-radius: 4px;
-    margin-top: 10px !important;
-    border: none;
-}
-.menu-item-11 a{
-    color:#FFF !important;
-}
+    #main-nav .custom-background{
+        background-size: cover;
+    }
+    #main-nav .navbar-toggle{
+        margin-top:15px;
+    }
+    #main-nav .navbar-brand{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+        #main-nav .navbar-brand img{
+            height: 60px;
+        }
+    #main-nav .menu-item-11, #main-nav .menu-item-25{
+        background-color: #c46543;
+        text-align: center;
+        line-height: 100%;
+        padding: 10px 20px 10px 20px;
+        border-radius: 4px;
+        margin-top: 10px !important;
+        border: none;
+    }
+    #main-nav .menu-item-11 a, #main-nav .menu-item-25 a{
+        color:#FFF !important;
+        line-height: initial !important;
+    }
+    #main-nav .navbar-nav>li>a{
+        line-height: initial;
+    }
 /*
  *
  *  TITLE
@@ -86,6 +68,11 @@ h1, h2, h3, h4, h5, h6{
     background-color: rgba(235, 235, 235, .7);
     text-shadow: 0px 5px 10px #FFF;
 }
+@media (min-width: 768px) {
+    .header-content-wrap .container{
+        background:none;
+    }
+}
 .header-content-wrap .form-group{
     border: 1px solid #262626;
     border-radius: 5px !important;
@@ -94,7 +81,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #FFF;
     border-right: 1px solid #262626;
 }
-.header-content-wrap input[type="text"]{
+.header-content-wrap input[type="text"], .header-content-wrap button{
     border: none;
     height: 46px !important;
     text-align: center;
@@ -105,7 +92,17 @@ h1, h2, h3, h4, h5, h6{
 }
 .header-content-wrap [type="submit"]{
     margin:0;
-    background-color:#c46543;
+    margin-left:10px;
+    background-color:#6c9488;
+}
+@media (max-width: 768px) {
+    .header-content-wrap [type="submit"]{
+        margin:0;
+    }
+}
+
+.header-content-wrap [type="submit"] i{
+    color: #FFF;
 }
 /*
  *
@@ -128,7 +125,6 @@ h1, h2, h3, h4, h5, h6{
         font-size:40px !important;
     }
     #focus .section-header{
-        /*padding-top: 15px;*/
         padding-bottom: 0;
         margin-top: 25px;
     }
@@ -165,7 +161,6 @@ h1, h2, h3, h4, h5, h6{
     
     margin:0;
     padding:0;
-    /*background-image: url('../images/tileable-wood.png');*/
     background:transparent;
 }
     .about-us .section-header{
@@ -249,19 +244,6 @@ h1, h2, h3, h4, h5, h6{
         .about-us .swiper-container .swiper-slide img{
             width:100%;
         }
-/*        .about-us .swiper-container .swiper-slide .owner-details{
-            color: #FFF;
-            position: absolute;
-            bottom:0;
-            left:5%;
-            width:90%;
-        }
-        .about-us .swiper-container .swiper-slide .owner-details.well{
-            background-color:rgba(255,255,255,0.5);
-            color:#000 !important;
-        }
-*/
-
 /*
  *
  *  TESTIMONIALS
@@ -275,7 +257,7 @@ h1, h2, h3, h4, h5, h6{
     }
     #testimonials .section-header{
         text-shadow: 0px 6x 12px #FFF;
-        font-family: Bebas_neue;
+        font-family: Montserrat;
         padding-bottom: 5px;
     }
     #testimonials .section-legend{
@@ -283,12 +265,27 @@ h1, h2, h3, h4, h5, h6{
         background-color:rgba(255,255,255,0.7);
     }
     #testimonials .client-name{
-        font-family: Bebas_neue;
+        font-family: Montserrat;
         font-size: 150%;
     }
     #testimonials .container{
-        /*background-color: rgba(235, 235, 235, .7);*/
         text-shadow: 0px 5px 10px #FFF;
+    }
+/*
+ *
+ *  RIBBON RIGHT
+ *
+ */
+#ribbon_bottom{
+    -webkit-box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
+    -moz-box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
+    box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('../images/wood.jpg');
+}
+    #ribbon_bottom a{
+        background: #6c9488;
     }
 /*
  *
@@ -302,9 +299,6 @@ h1, h2, h3, h4, h5, h6{
     border-size: 1px;
     border-style: double;
     border-color: #262626;
-    /*-webkit-box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
-    -moz-box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;
-    box-shadow: inset 0 0 50px #262626, inset 0 0 50px #262626, inset 0 0 50px #262626;*/
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -312,9 +306,6 @@ h1, h2, h3, h4, h5, h6{
         color:#FFF;
         text-shadow: 0px 5px 10px #262626;
     }
-        #charity .container{
-            /*background-image: url('../images/swirl.png');*/
-        }
         #charity .section-header{
             padding-bottom: 0;
             margin-top: 25px;
@@ -327,11 +318,7 @@ h1, h2, h3, h4, h5, h6{
             padding-bottom: 35px;
             font-size:30px;
         }
-            #charity .row .charity-box{
-                
-            }
             #charity .row .charity-info{
-                /*background-color:rgba(255,255,255,0.5);*/
                 color:#FFF;
                 text-shadow: 0px 5px 10px #262626;
                 font-size:22px;
