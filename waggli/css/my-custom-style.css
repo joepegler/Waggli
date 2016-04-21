@@ -83,7 +83,7 @@ h1.entry-title{
     background-color: #FFF;
     border-right: 1px solid #262626;
 }
-.header-content-wrap input[type="text"]{
+.header-content-wrap input[type="text"], .header-content-wrap button{
     border: none;
     height: 46px !important;
     text-align: center;
@@ -94,7 +94,17 @@ h1.entry-title{
 }
 .header-content-wrap [type="submit"]{
     margin:0;
-    background-color:#c46543;
+    margin-left:10px;
+    background-color:#6c9488;
+}
+@media (max-width: 768px) {
+    .header-content-wrap [type="submit"]{
+        margin:0;
+    }
+}
+
+.header-content-wrap [type="submit"] i{
+    color: #FFF;
 }
 /*
  *
