@@ -1,52 +1,14 @@
 /*
  *
- *  GLOBAL FONTS
- *
- */
-@font-face {
-    font-family: 'Circular-bold';
-    src: url('../fonts/glacialindifference-bold-webfont.eot');
-    src: url('../fonts/glacialindifference-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
-         url('../fonts/glacialindifference-bold-webfont.woff') format('woff'),
-         url('../fonts/glacialindifference-bold-webfont.ttf') format('truetype'),
-         url('../fonts/glacialindifference-bold-webfont.svg#glacial_indifferencebold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Circular';
-    src: url('../fonts/glacialindifference-regular-webfont.eot');
-    src: url('../fonts/glacialindifference-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
-         url('../fonts/glacialindifference-regular-webfont.woff') format('woff'),
-         url('../fonts/glacialindifference-regular-webfont.ttf') format('truetype'),
-         url('../fonts/glacialindifference-regular-webfont.svg#glacial_indifferenceregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Bebas_neue';
-    src: url('../fonts/bebasneue_regular-webfont.eot');
-    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
-         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-/*
- *
  *  GLOBAL CSS
  *
  */
 body *{
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#262626;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: Bebas_neue;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1.entry-title{
     font-size: 180%;
@@ -56,21 +18,36 @@ h1.entry-title{
  *  NAVBAR
  *
  */
-.custom-background{
-    background-size: cover;
+#main-nav{
+    max-height:60px !important;
+    min-height:60px !important;
 }
-.menu-item-11{
-    background-color: #c46543;
-    text-align: center;
-    line-height: 100%;
-    padding: 10px 20px 10px 20px;
-    border-radius: 4px;
-    margin-top: 10px !important;
-    border: none;
-}
-.menu-item-11 a{
-    color:#FFF !important;
-}
+    #main-nav .custom-background{
+        background-size: cover;
+    }
+    #main-nav .navbar-brand{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+        #main-nav .navbar-brand img{
+            height: 60px;
+        }
+    #main-nav .menu-item-11, #main-nav .menu-item-25{
+        background-color: #c46543;
+        text-align: center;
+        line-height: 100%;
+        padding: 10px 20px 10px 20px;
+        border-radius: 4px;
+        margin-top: 10px !important;
+        border: none;
+    }
+    #main-nav .menu-item-11 a, #main-nav .menu-item-25 a{
+        color:#FFF !important;
+        line-height: initial !important;
+    }
+    #main-nav .navbar-nav>li>a{
+        line-height: initial;
+    }
 /*
  *
  *  TITLE
@@ -278,7 +255,7 @@ h1.entry-title{
     }
     #testimonials .section-header{
         text-shadow: 0px 6x 12px #FFF;
-        font-family: Bebas_neue;
+        font-family: Montserrat;
         padding-bottom: 5px;
     }
     #testimonials .section-legend{
@@ -286,7 +263,7 @@ h1.entry-title{
         background-color:rgba(255,255,255,0.7);
     }
     #testimonials .client-name{
-        font-family: Bebas_neue;
+        font-family: Montserrat;
         font-size: 150%;
     }
     #testimonials .container{
