@@ -6,7 +6,7 @@
 			array( 
 				'referral_id' => 'DEFAULT', 
 				'affiliate_id' => $_POST['affiliate_id'],
-				'datetime' => 'DEFAULT'
+				'datetime' => 'NOW()'
 			), 
 			array( 
 				'%s', 
