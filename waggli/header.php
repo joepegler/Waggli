@@ -26,6 +26,8 @@
 
 <?php
 
+include('api.php');
+
 if ( ! function_exists( '_wp_render_title_tag' ) ) :
     function zerif_old_render_title() {
 ?>
