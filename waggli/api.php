@@ -1,5 +1,5 @@
 <?php
-	header('Access-Control-Allow-Origin: https://waggli.sharetribe');
+	header('Access-Control-Allow-Origin: https://waggli.sharetribe.com');
 	global $wpdb;
 	if (isset($_POST['affiliate_id'])){
 		$wpdb->insert( 
