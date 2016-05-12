@@ -4,13 +4,13 @@
  *
  */
 body *{
-    font-family: 'Playfair Display', serif;
-    /*font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#262626;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Josefin Sans', serif;
-    /*font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-family: 'Josefin Sans', serif;*/
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1.entry-title{
     font-size: 180%;
@@ -264,7 +264,7 @@ body.custom-background {
     }
     #testimonials .section-header{
         text-shadow: 0px 6x 12px #FFF;
-        font-family: Josefin Sans;
+        font-family: Montserrat;
         padding-bottom: 5px;
     }
     #testimonials .section-legend{
@@ -272,7 +272,7 @@ body.custom-background {
         background-color:rgba(255,255,255,0.7);
     }
     #testimonials .client-name{
-        font-family: Josefin Sans;
+        font-family: Montserrat;
         font-size: 150%;
     }
     #testimonials .container{
