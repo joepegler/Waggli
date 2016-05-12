@@ -4,11 +4,13 @@
  *
  */
 body *{
-    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     color:#262626;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Josefin Sans', serif;
+    /*font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 h1.entry-title{
     font-size: 180%;
@@ -133,6 +135,8 @@ body.custom-background {
     }
     #focus .section-legend, 
     #focus .red-border-bottom{
+        text-transform: initial;
+        font-weight: initial;
         font-size:22px;
     }
     #focus p{
@@ -260,7 +264,7 @@ body.custom-background {
     }
     #testimonials .section-header{
         text-shadow: 0px 6x 12px #FFF;
-        font-family: Montserrat;
+        font-family: Josefin Sans;
         padding-bottom: 5px;
     }
     #testimonials .section-legend{
@@ -268,7 +272,7 @@ body.custom-background {
         background-color:rgba(255,255,255,0.7);
     }
     #testimonials .client-name{
-        font-family: Montserrat;
+        font-family: Josefin Sans;
         font-size: 150%;
     }
     #testimonials .container{
@@ -334,3 +338,99 @@ body.custom-background {
 #footer *{
     color:#FFF;
 }
+    #footer nav a {
+        position: relative;
+        display: inline-block;
+        margin: 25px 25px;
+        outline: none;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        text-shadow: 0 0 1px rgba(255,255,255,0.3);
+        font-size: 1.35em;
+    }
+
+    #footer nav a:hover,
+    #footer nav a:focus {
+        outline: none;
+    }
+
+    #footer .ij-effect-9 a {
+        margin: 0 20px;
+        padding: 18px 20px;
+    }
+
+    #footer .ij-effect-9 a::before,
+    #footer .ij-effect-9 a::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+        content: '';
+        opacity: 0.2;
+        -webkit-transition: opacity 0.3s, height 0.3s;
+        -moz-transition: opacity 0.3s, height 0.3s;
+        transition: opacity 0.3s, height 0.3s;
+    }
+
+    #footer .ij-effect-9 a::after {
+        top: 100%;
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+        -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+        transition: transform 0.3s, opacity 0.3s;
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    #footer .ij-effect-9 a span:first-child {
+        z-index: 2;
+        display: block;
+        font-weight: 300;
+    }
+
+    #footer .ij-effect-9 a span:last-child {
+        z-index: 1;
+        display: block;
+        padding: 8px 0 0 0;
+        /*color: rgba(0,0,0,0.4);*/
+        text-shadow: none;
+        text-transform: none;
+        font-style: italic;
+        font-size: 0.75em;
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+        -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+        transition: transform 0.3s, opacity 0.3s;
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    #footer .ij-effect-9 a:hover::before,
+    #footer .ij-effect-9 a:focus::before {
+        height: 6px;
+    }
+
+    #footer .ij-effect-9 a:hover::before,
+    #footer .ij-effect-9 a:hover::after,
+    #footer .ij-effect-9 a:focus::before,
+    #footer .ij-effect-9 a:focus::after {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    #footer .ij-effect-9 a:hover span:last-child,
+    #footer .ij-effect-9 a:focus span:last-child {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        transform: translateY(0%);
+    }
