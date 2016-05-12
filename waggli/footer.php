@@ -13,7 +13,6 @@
 				<div class="container">
 
 					<br/>
-
 					<nav class="ij-effect-9">
 
 						<a href="https://www.facebook.com/waggli"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/facebook.png">'?></span><span> facebook </span></a>
@@ -26,7 +25,6 @@
 						<a href="https://uk.pinterest.com/waggli/"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/pinterest.png">'?></span><span> pinterest </span></a>
 
 					</nav>
-
 					<br/>
 
 				</div> <!-- / END CONTAINER -->
