@@ -23,7 +23,7 @@
 						<a href="https://twitter.com/wagglipets"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/twitter.png">'?></span><span> twitter </span></a>
 						<a href="https://plus.google.com/+WaggliPets/posts"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/googleplus.png">'?></span><span> google + </span></a>
 						<a href="https://www.instagram.com/wagglipets/"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/instagram.png">'?></span><span> instagram </span></a>
-						<a href="https://www.facebook.com/waggli"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/pinterest.png">'?></span><span> pinterest </span></a>
+						<a href="https://uk.pinterest.com/waggli/"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/pinterest.png">'?></span><span> pinterest </span></a>
 
 					</nav>
 
