@@ -203,8 +203,10 @@ function zerif_scripts() {
 
 	wp_enqueue_style('zerif_font', zerif_slug_fonts_url(), array(), null );
 
-    wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Roboto');
-    wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Montserrat');
+    wp_enqueue_style('zerif_font_all', 'http://fonts.googleapis.com/css?family=Josefin+Sans:600');
+    wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Playfair+Display');
+
+    // wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Montserrat');
 
     wp_enqueue_style('zerif_bootstrap_style', get_template_directory_uri() . '/css/bootstrap.css');
 	
