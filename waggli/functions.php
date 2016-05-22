@@ -453,9 +453,9 @@ function zerif_register_default_widgets() {
         /* our focus widget #1 */
 		$active_widgets[ 'sidebar-ourfocus' ][0] = 'ctup-ads-widget-' . $zerif_lite_counter;
         if ( file_exists( get_stylesheet_directory_uri().'/images/parallax.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog sitters.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/parallax.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog boarders.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/parallax.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog sitters.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/parallax.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog boarders.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/parallax.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;

@@ -40,7 +40,7 @@
         height: 1px;
         background: #fff;
         content: '';
-        opacity: 0.2;
+        opacity: 0;
         -webkit-transition: opacity 0.3s, height 0.3s;
         -moz-transition: opacity 0.3s, height 0.3s;
         transition: opacity 0.3s, height 0.3s;
