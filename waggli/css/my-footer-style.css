@@ -3,8 +3,11 @@
  *  FOOTER
  *
  */
+#footer{
+    background-color: #FFF;
+}
 #footer .container *{
-    color:#FFF;
+    color:#262626;
 }
     #footer .container nav a {
         position: relative;
@@ -12,12 +15,12 @@
         width: 95px;
         margin: 25px 25px;
         outline: none;
-        color: #fff;
+        color: #262626;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-weight: 400;
-        text-shadow: 0 0 1px rgba(255,255,255,0.3);
+        text-shadow: 0 0 1px rgba(0,0,0,0.3);
         font-size: 1.35em;
     }
 
@@ -38,7 +41,7 @@
         left: 0;
         width: 100%;
         height: 1px;
-        background: #fff;
+        background: #262626;
         content: '';
         opacity: 0;
         -webkit-transition: opacity 0.3s, height 0.3s;
@@ -112,7 +115,7 @@
       position: relative;
       display: inline-block;
       border-radius: 5px;
-      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      text-shadow: 0 1px 2px rgba(255,255,255, 0.1);
       border-radius: 5px;
       -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -126,7 +129,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        text-shadow: 0 5px 15px rgba(255,255,255, 0.3);
         opacity: 0;
         -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
         transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
