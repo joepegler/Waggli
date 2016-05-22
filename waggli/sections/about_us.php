@@ -41,6 +41,7 @@
                 <div class="owner-details"><!--&quot;Sara looked after our lovely Lucy for a couple of days when we went on vacation. We're so grateful to her for being such a great boarder. &quot; - Ron, La Mesa.--></div>
             </div>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
 
 </section>

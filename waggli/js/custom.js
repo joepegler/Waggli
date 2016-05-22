@@ -13,8 +13,18 @@ jQuery(document).ready(function() {
     var swiper = new Swiper('.swiper-container', {
     	autoplay : 10000,
     	slidesPerView: 1,
+    	pagination: '.swiper-pagination',
+        effect: 'cube',
+        grabCursor: true,
+        paginationClickable : true,
+        cube: {
+            shadow: false
+        },
     	onSlideChangeStart : function(swiper){
     		jQuery('#aboutus .section-legend').html(aboutUsTitles[swiper.activeIndex]);
     	},
+        paginationBulletRender: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + '</span>';
+        }
     });
 });

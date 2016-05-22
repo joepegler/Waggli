@@ -44,7 +44,7 @@
             <a href="https://twitter.com/wagglipets"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/twitter.png">'?></span><span> twitter </span></a>
             <a href="http://maps.google.com/?q=San Diego, CA 92121"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/location.png">'?></span><span> map </span></a>
             <a href="https://www.instagram.com/wagglipets/"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/instagram.png">'?></span><span> instagram </span></a>
-            <a href="https://uk.pinterest.com/waggli/"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/pinterest.png">'?></span><span> pinterest </span></a>
+            <a href="https://www.pinterest.com/waggli/"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/pinterest.png">'?></span><span> pinterest </span></a>
 
           </nav>
 
