@@ -303,9 +303,6 @@ body.custom-background {
     background-image: url('../images/bg3.png');
     background-position: center;
     background-size: cover;
-    border-size: 1px;
-    border-style: double;
-    border-color: #262626;
     padding-top: 0;
     padding-bottom: 0;
 }

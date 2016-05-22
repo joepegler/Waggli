@@ -47,7 +47,6 @@
             <a href="https://uk.pinterest.com/waggli/"><span> <?php echo '<img src="'.get_template_directory_uri().'/images/pinterest.png">'?></span><span> pinterest </span></a>
 
           </nav>
-          <br/>
 
         </div> <!-- / END CONTAINER -->
 
