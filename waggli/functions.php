@@ -207,6 +207,7 @@ function zerif_scripts() {
     // wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Playfair+Display');
 
     wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Montserrat');
+    
     wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Roboto');
 
     wp_enqueue_style('zerif_bootstrap_style', get_template_directory_uri() . '/css/bootstrap.css');
@@ -224,6 +225,8 @@ function zerif_scripts() {
     wp_enqueue_style('my_datepicker_style', get_template_directory_uri() . '/css/datepicker.css');
 
     wp_enqueue_style('my_custom_style', get_template_directory_uri() . '/css/my-custom-style.css');
+
+    wp_enqueue_style('footer_style', get_template_directory_uri() . '/css/my-footer-style.css');
 
     wp_enqueue_style('swiper_style', get_template_directory_uri() . '/css/swiper.min.css');
 
