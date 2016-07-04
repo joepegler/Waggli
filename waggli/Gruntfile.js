@@ -7,7 +7,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'waggli/js',
           src: '**/*.js',
-          cwd: 'waggli/js',
+          dest: 'waggli/js',
         }]
       }
     },
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'waggli/css',
           src: '**/*.js',
-          cwd: 'waggli/css',
+          dest: 'waggli/css',
         }]
       }
     }
