@@ -10,19 +10,19 @@ module.exports = function(grunt) {
           cwd: 'waggli/js',
         }]
       }
+    },
+    cssmin: {
+      build: {
+        files: [{
+          expand: true,
+          cwd: 'waggli/css',
+          src: '**/*.js',
+          cwd: 'waggli/css',
+        }]
+      }
     }
   });
 
-  cssmin: {
-    build: {
-      files: [{
-        expand: true,
-        cwd: 'waggli/css',
-        src: '**/*.js',
-        cwd: 'waggli/css',
-      }]
-    }
-  }
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
