@@ -9,3 +9,5 @@
 !waggli/
 !waggli/**
 
+node_modules
+

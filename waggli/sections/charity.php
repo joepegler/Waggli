@@ -3,7 +3,7 @@
     <div class="container">
 
         <div class="section-header">
-            <h2>Charity</h2>
+            <h2>Non Profits</h2>
         </div>
 
         <div class="section-legend">At Waggli we give back.</div>
