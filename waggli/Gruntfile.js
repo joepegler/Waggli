@@ -4,10 +4,10 @@ module.exports = function(grunt) {
     uglify: {
       build: {
         files: [{
-            expand: true,
-            cwd: 'waggli/js',
-            src: '**/*.js',
-            cwd: 'waggli/js',
+          expand: true,
+          cwd: 'waggli/js',
+          src: '**/*.js',
+          cwd: 'waggli/js',
         }]
       }
     }
