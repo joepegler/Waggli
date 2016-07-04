@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     uglify: {
-      my_target: {
+      build: {
         files: [{
             expand: true,
             cwd: 'waggli/js',
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
   });
 
   cssmin: {
-    target: {
+    build: {
       files: [{
         expand: true,
         cwd: 'waggli/css',
@@ -27,6 +27,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['uglify', 'cssmin']);
 
 };
