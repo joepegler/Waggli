@@ -374,8 +374,8 @@ jQuery(window).resize(function() {
 });
 function setminHeightHeader()
 {
-    jQuery('#main-nav').css('min-height','75px');
-    jQuery('.header').css('min-height','75px');
+    jQuery('#main-nav').css('min-height','60px');
+    jQuery('.header').css('min-height','60px');
     var minHeight = parseInt( jQuery('#main-nav').height() );
     jQuery('#main-nav').css('min-height',minHeight);
     jQuery('.header').css('min-height',minHeight);

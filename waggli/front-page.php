@@ -191,10 +191,6 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	endif;
 
-	/* RIBBON WITH BOTTOM BUTTON */
-
-	get_template_part( 'sections/ribbon_with_bottom_button' );
-
 	/* ABOUT US */
 
 	$zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
@@ -228,6 +224,11 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 	/* RIBBON WITH RIGHT SIDE BUTTON */
 
 	get_template_part( 'sections/ribbon_with_right_button' );
+
+	/* RIBBON WITH BOTTOM BUTTON */
+
+	get_template_part( 'sections/ribbon_with_bottom_button' );
+
 
 	/* LATEST NEWS */
 	$zerif_latestnews_show = get_theme_mod('zerif_latestnews_show');

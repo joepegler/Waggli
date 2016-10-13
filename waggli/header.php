@@ -9,6 +9,7 @@
 
 <head>
 <script src="//load.sumome.com/" data-sumo-site-id="1198d2c34e139aa19f1cb2ed149f8a6fe014785b601dbf848c7c752316195f2f" async="async"></script>
+<meta name="p:domain_verify" content="ec190bfa28ff1dba5f84a61889c4b1ca"/>
 
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +25,8 @@
 <![endif]-->
 
 <?php
+
+include('api.php');
 
 if ( ! function_exists( '_wp_render_title_tag' ) ) :
     function zerif_old_render_title() {

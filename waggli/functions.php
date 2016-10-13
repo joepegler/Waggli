@@ -203,8 +203,13 @@ function zerif_scripts() {
 
 	wp_enqueue_style('zerif_font', zerif_slug_fonts_url(), array(), null );
 
-    wp_enqueue_style( 'zerif_font_all', '//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic,800,800italic');
+    // wp_enqueue_style('zerif_font_all', 'http://fonts.googleapis.com/css?family=Josefin+Sans:600');
+    // wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Playfair+Display');
+
+    wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Montserrat');
     
+    wp_enqueue_style('zerif_font_all', 'https://fonts.googleapis.com/css?family=Roboto');
+
     wp_enqueue_style('zerif_bootstrap_style', get_template_directory_uri() . '/css/bootstrap.css');
 	
     wp_style_add_data( 'zerif_bootstrap_style', 'rtl', 'replace' );
@@ -220,6 +225,8 @@ function zerif_scripts() {
     wp_enqueue_style('my_datepicker_style', get_template_directory_uri() . '/css/datepicker.css');
 
     wp_enqueue_style('my_custom_style', get_template_directory_uri() . '/css/my-custom-style.css');
+
+    wp_enqueue_style('footer_style', get_template_directory_uri() . '/css/my-footer-style.css');
 
     wp_enqueue_style('swiper_style', get_template_directory_uri() . '/css/swiper.min.css');
 
@@ -446,9 +453,9 @@ function zerif_register_default_widgets() {
         /* our focus widget #1 */
 		$active_widgets[ 'sidebar-ourfocus' ][0] = 'ctup-ads-widget-' . $zerif_lite_counter;
         if ( file_exists( get_stylesheet_directory_uri().'/images/parallax.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog sitters.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/parallax.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog boarders.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/parallax.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog sitters.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/parallax.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'FIND', 'text' => 'Browse thousands of dog boarders.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/parallax.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
